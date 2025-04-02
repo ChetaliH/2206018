@@ -1,0 +1,166 @@
+type: collection.insomnia.rest/5.0
+name: "2206018"
+meta:
+  id: wrk_9a043e9ef55246a395b451d187b81234
+  created: 1743596329581
+  modified: 1743596329581
+collection:
+  - url: http://20.244.56.144/evaluation-service/register
+    name: New Request
+    meta:
+      id: req_9a0ddeee130a4220853741eb25e098d3
+      created: 1743598376118
+      modified: 1743598635422
+      isPrivate: false
+      sortKey: -1743598376118
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email":"chetalihariramani@gmail.com",
+        	"name":"Chetali Hariramani",
+        	"mobileNo":"6354241475",
+        	"githubUserName":"ChetaliH",
+        	"rollNo":"2206018",
+        	"collegeName":"KIIT University",
+        	"accessCode":"nwpwrZ"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://20.244.56.144/evaluation-service/auth
+    name: New Request
+    meta:
+      id: req_16b8511b9fc545bdba8689d76f9a2c1b
+      created: 1743598660080
+      modified: 1743598762080
+      isPrivate: false
+      sortKey: -1743598660080
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "chetalihariramani@gmail.com",
+        	"name": "chetali hariramani",
+        	"rollNo": "2206018",
+        	"accessCode": "nwpwrZ",
+        	"clientID": "444a13ba-bf22-4641-b7bb-6593dd09dc08",
+        	"clientSecret": "RSXjkMtUzRnxgNQk"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://20.244.56.144/evaluation-service/even
+    name: New Request
+    meta:
+      id: req_720256127b904f72b92f5e4c725ff44a
+      created: 1743601372854
+      modified: 1743601847983
+      isPrivate: false
+      sortKey: -1743601372854
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://20.244.56.144/evaluation-service/even
+    name: New Request
+    meta:
+      id: req_a18085b620fa40eaa5fd15b57f56f28c
+      created: 1743601893959
+      modified: 1743603177099
+      isPrivate: false
+      sortKey: -1743601893959
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.0.1
+        id: pair_1fb3bd7f759049e7aec07286d4919999
+        disabled: true
+      - id: pair_5610b44336644f6a95fa732d4e1756d2
+        name: Authorization
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzQzNTk4NTkwLCJpYXQiOjE3NDM1OTgyOTAsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjQ0NGExM2JhLWJmMjItNDY0MS1iN2JiLTY1OTNkZDA5ZGMwOCIsInN1YiI6ImNoZXRhbGloYXJpcmFtYW5pQGdtYWlsLmNvbSJ9LCJlbWFpbCI6ImNoZXRhbGloYXJpcmFtYW5pQGdtYWlsLmNvbSIsIm5hbWUiOiJjaGV0YWxpIGhhcmlyYW1hbmkiLCJyb2xsTm8iOiIyMjA2MDE4IiwiYWNjZXNzQ29kZSI6Im53cHdyWiIsImNsaWVudElEIjoiNDQ0YTEzYmEtYmYyMi00NjQxLWI3YmItNjU5M2RkMDlkYzA4IiwiY2xpZW50U2VjcmV0IjoiUlNYamtNdFV6Um54Z05RayJ9.Il7vx2DmesgHbzewKnuUAXQn7xTUAlcPdfCwxx4B7hQ
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://20.244.56.144/evaluation-service/auth
+    name: New Request
+    meta:
+      id: req_e8de99be6cb345d49465bdf9c0fd5fb9
+      created: 1743603604437
+      modified: 1743603620458
+      isPrivate: false
+      sortKey: -1743603604437
+    method: GET
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email": "chetalihariramani@gmail.com",
+        	"name": "chetali hariramani",
+        	"rollNo": "2206018",
+        	"accessCode": "nwpwrZ",
+        	"clientID": "444a13ba-bf22-4641-b7bb-6593dd09dc08",
+        	"clientSecret": "RSXjkMtUzRnxgNQk"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.0.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_960ed1ce62925cc4cd2685a88b206e3c16c8e819
+    created: 1743596329592
+    modified: 1743596329592
+environments:
+  name: Base Environment
+  meta:
+    id: env_960ed1ce62925cc4cd2685a88b206e3c16c8e819
+    created: 1743596329590
+    modified: 1743596329590
+    isPrivate: false
